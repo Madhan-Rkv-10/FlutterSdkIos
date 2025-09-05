@@ -1,0 +1,172 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "fastagwrapperios",
+    "printedName": "fastagwrapperios",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fastagwrapperios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "fastagwrapperios"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "fastagwrapperios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "fastagwrapperios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FlutterPluginRegistrant",
+        "printedName": "FlutterPluginRegistrant",
+        "declKind": "Import",
+        "moduleName": "fastagwrapperios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FastagSdk",
+        "printedName": "FastagSdk",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "openFastag",
+            "printedName": "openFastag(from:userId:vrn:vehicleVariant:theme:vin:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16fastagwrapperios9FastagSdkC04openB04from6userId3vrn14vehicleVariant5theme3vinySo16UIViewControllerC_S5StFZ",
+            "mangledName": "$s16fastagwrapperios9FastagSdkC04openB04from6userId3vrn14vehicleVariant5theme3vinySo16UIViewControllerC_S5StFZ",
+            "moduleName": "fastagwrapperios",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16fastagwrapperios9FastagSdkC",
+        "mangledName": "$s16fastagwrapperios9FastagSdkC",
+        "moduleName": "fastagwrapperios",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/network.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 16,
+      "value": "\"NetworkMonitor\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/network.swift",
+      "kind": "BooleanLiteral",
+      "offset": 354,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/fastagwrapperios.swift",
+      "kind": "BooleanLiteral",
+      "offset": 562,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

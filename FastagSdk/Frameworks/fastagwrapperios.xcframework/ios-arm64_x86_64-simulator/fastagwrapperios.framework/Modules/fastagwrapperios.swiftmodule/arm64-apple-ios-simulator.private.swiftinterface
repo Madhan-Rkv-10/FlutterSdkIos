@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios18.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name fastagwrapperios
+// swift-module-flags: -target arm64-apple-ios18.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name fastagwrapperios
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import Foundation
 import Network
@@ -9,15 +9,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class NetworkMonitor {
-  public static let shared: fastagwrapperios.NetworkMonitor
-  public var isConnected: Swift.Bool {
-    get
-  }
-  public func startMonitoring()
-  public func stopMonitoring()
-  @objc deinit
-}
 @_hasMissingDesignatedInitializers final public class FastagSdk {
   public static func openFastag(from rootViewController: UIKit.UIViewController, userId: Swift.String, vrn: Swift.String, vehicleVariant: Swift.String, theme: Swift.String, vin: Swift.String)
   @objc deinit

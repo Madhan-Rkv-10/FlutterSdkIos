@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FastagSdk'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A short description of FastagSdk.'
 
 # This description is used to generate tags and improve search results.
@@ -31,12 +31,13 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'FastagSdk/Classes/**/*'
   
-  s.ios.deployment_target = '18.5'
+
+  s.platform              = :ios, '13.0'
   s.vendored_frameworks = [        
         'FastagSdk/Frameworks/FlutterPluginRegistrant.xcframework',
         'FastagSdk/Frameworks/App.xcframework',
         'FastagSdk/Frameworks/url_launcher_ios.xcframework' ,
-        'FastagSdk/Frameworks/fastagsdkios.xcframework'
+        'FastagSdk/Frameworks/fastagwrapperios.xcframework'
     ]
 
 
